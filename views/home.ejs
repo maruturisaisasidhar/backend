@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Center content */
+        h3 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-top: 50px;
+        }
+
+        /* Add some styling for the body background */
+        body {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Apply a subtle box-shadow around the content */
+        h3 {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Optional: Add a smooth transition for background color change */
+        body {
+            transition: background-color 0.5s ease;
+        }
+
+        /* Add some responsive behavior */
+        @media (max-width: 768px) {
+            h3 {
+                font-size: 2rem;
+                margin-top: 30px;
+            }
+        }
+        button{
+            position:fixed;
+            left:650px;
+            bottom:200px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Welcome to Aarogya</h3>
+    <a href="/advice">
+        <button style="padding: 10px 20px; background-color: rgba(255, 255, 255, 0.8); border: none; border-radius: 5px; cursor: pointer;">
+            Take Advice
+        </button>
+    </a>
+</body>
+</html>
